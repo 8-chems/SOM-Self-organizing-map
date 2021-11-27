@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WPFChart3D.Chart3D" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAAACABAIQAAAACDAASAAQACQAIARAAAAgwAAAAAA=</HashCode>
+      <FileName>3D_Dis\Chart3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.ColorMesh3D" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAACAAEgAAAAAAAA=</HashCode>
+      <FileName>3D_Dis\ColorMesh3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Cone3D" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>3D_Dis\Cone3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Mesh3D" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIQAAAgAQACAAAJGICggwAAAAAAiAAAgAAAgAAAA=</HashCode>
+      <FileName>3D_Dis\Mesh3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Model3D" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAAAAAAABBAAAAAAAAAAAIACAAAAAAAAAA=</HashCode>
+      <FileName>3D_Dis\Model3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.SurfaceChart3D" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>3D_Dis\SurfaceChart3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.TextureMapping" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAAAAAAAEAAAAAAAEAAAIAAAAAAACAAAA=</HashCode>
+      <FileName>3D_Dis\TextureMapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.TransformMatrix" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAUAAAAAIAAAEBEASQBBIAQAAAAAAABABAAAA=</HashCode>
+      <FileName>3D_Dis\TransformMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Triangle3D" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>3D_Dis\Triangle3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.UniformSurfaceChart3D" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAABAAAAAAAAAAAAAAgAACgAgAAAAAAAA=</HashCode>
+      <FileName>3D_Dis\UniformSurfaceChart3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Vertex3D" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABQAAAAAAAAAAAAAAAAAAAAACAAABgAwAAAAA=</HashCode>
+      <FileName>3D_Dis\Vertex3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.ViewportRect" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAAMCAACAAQABQAAAAAoAAAAAAAIAA=</HashCode>
+      <FileName>3D_Dis\ViewportRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFChart3D.Window1" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgABAACAAAAAAAAAAAAAoABAIQAAkAAAAAAQAAQBA=</HashCode>
+      <FileName>3D_Dis\Window1.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Aff_données" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAEAICAAAAAAAAABAAAAgBAAAAAYAAAAEAAA=</HashCode>
+      <FileName>Aff_données.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.AforgeTraining" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAIAQCBEBAAAIAAAAAAEFAAAAAAAAAAAAA=</HashCode>
+      <FileName>AforgeTraining.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.ArrayList&lt;T&gt;" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrayList_2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.DBConnect" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAACAAIAAAAAAAEAAABJQAAAACAgoAAAAgIA=</HashCode>
+      <FileName>DBConnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Panel1" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIABAAAAAGAKZAAALgEAEAAgMBAAAAAQCRoAAAoMQA=</HashCode>
+      <FileName>Panel1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Panel2" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAAAgAhAAAAAAAAAAoANQAAAAQAEoAAAAoAA=</HashCode>
+      <FileName>Panel2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Panel3" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgABABAAAAAAAAAABQAAAAAAgoAAAAIAA=</HashCode>
+      <FileName>Panel3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Program" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAAgAAAAAACAAEAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Interface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Properties.Resources" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP_SOM_BERBEGUE.Properties.Settings" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

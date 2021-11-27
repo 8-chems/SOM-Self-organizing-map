@@ -1,0 +1,112 @@
+﻿ <Window x:Class="WPFChart3D.Window1"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    KeyDown="OnKeyDown"
+     Height="500" Width="800" Loaded="Window_Loaded">
+   
+     <Grid Name="grid1">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="*" />
+            <RowDefinition Height="Auto" MinHeight="16" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="170" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+            
+                <Viewport3D Name="mainViewport" 
+                    Grid.Column="1" 
+                    Grid.Row="0"
+                    ClipToBounds = "False"  
+                    IsHitTestVisible="false"
+                    RenderOptions.EdgeMode="Aliased">
+            
+                   
+                <Viewport3D.Camera>
+                <OrthographicCamera x:Name="camera" Width="2"
+                    FarPlaneDistance="10"
+	                NearPlaneDistance="1" 
+	                LookDirection="0,0,-1"
+	                UpDirection="0,1,0" 
+	                Position="0,0,2" />
+            </Viewport3D.Camera>
+            <Viewport3D.Children>
+                <ModelVisual3D x:Name="Light1">
+                    <ModelVisual3D.Content>
+                        <DirectionalLight Color="White" Direction="1, 1, -1" />
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+                <ModelVisual3D x:Name="Light2">
+                    <ModelVisual3D.Content>
+                        <DirectionalLight Color="White" Direction="-1, 1, -1" />
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+                <ModelVisual3D x:Name="Light3">
+                    <ModelVisual3D.Content>
+                        <DirectionalLight Color="White" Direction="0,-1,-0.5" />
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+            </Viewport3D.Children>
+              
+         </Viewport3D>
+                
+        <Canvas x:Name="canvasOn3D"
+                Grid.Column="1"
+                Grid.Row="0"
+                Width="400"
+                Height="400"
+                Background="Transparent" 
+                MouseUp="OnViewportMouseUp"  
+                MouseDown="OnViewportMouseDown"  
+                MouseMove="OnViewportMouseMove" Margin="0,0,0,0">
+        </Canvas>
+            
+
+            <TextBlock x:Name ="statusPane" 
+                Grid.Row="1" 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Height="auto" />
+        
+        <Canvas Name="controlPane" 
+                Grid.Column="0"
+                Grid.Row="0"
+                Grid.RowSpan="1" 
+                Background="FloralWhite" 
+                HorizontalAlignment="Left" 
+                Margin="0,10" 
+                Width="auto">
+            
+                <GroupBox Header="Control" Height="440" Width="169" 
+                          HorizontalAlignment="Left" Margin="7.5,5,0,0" 
+                          VerticalAlignment="Top" Foreground="DarkBlue">
+                    <Canvas>
+                    <GroupBox Header="Zoom" Height="128" Width="150" 
+                  HorizontalAlignment="Left" Margin="5,5,0,0" 
+                  VerticalAlignment="Top" Foreground="DarkBlue">
+                        <Canvas>
+                            <Button Name="b1" Margin="5,5,0,0"  Width="130" Height="30"> Zoom IN   </Button>
+                            <Button Name ="b2" Margin="5,50,0,0" Width="130" Height="30"> Zoom  Out </Button>
+                        </Canvas>
+                        
+                    </GroupBox>
+                   <GroupBox Header="Coleur" Height="240" Width="150" 
+                          HorizontalAlignment="Left" Margin="5,170,0,0" 
+                          VerticalAlignment="Top" Foreground="DarkBlue">
+                        <Canvas>
+                            <Button Name="b3" Margin="5,5,0,0" Width="130" Height="30" >+</Button>
+                            <Button Name ="b4" Margin="5,100,0,0" Width="130" Height="30">-</Button>
+                        </Canvas>
+                    </GroupBox>
+                </Canvas>
+                </GroupBox>
+        </Canvas>
+       
+       
+        
+    </Grid>
+   
+</Window>
